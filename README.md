@@ -50,21 +50,8 @@ In this phase, we employ a **feature detection AI algorithm** to identify specif
 1. Data Pre-processing
 2. PCA correlations
 3. Random Forest Classifier **RFC** to find features.
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
+  <div>
+  <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th></th>
@@ -176,8 +163,10 @@ In this phase, we employ a **feature detection AI algorithm** to identify specif
   </tbody>
 </table>
 </div>
-4. Optimal no. of Features.
+  
+  4. Metadata Features with **RFC**.
 
+![alt text](image-3.png)
 
 ---
 
